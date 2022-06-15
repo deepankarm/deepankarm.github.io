@@ -1,0 +1,6 @@
+[submodule "themes/ink-free"]
+	path = themes/ink-free
+	url = https://github.com/chollinger93/ink-free.git
+[submodule "themes/smigle"]
+	path = themes/smigle
+	url = https://gitlab.com/ian-s-mcb/smigle-hugo-theme.git
