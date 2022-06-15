@@ -192,3 +192,16 @@ Note the following.
 <p align="center">
 <a href="#"><img src="/images/scale-to-10.gif" alt="Scale to 10" width="90%"></a>
 </p>
+
+---
+
+## So what?
+
+Whew! Unfortunately, that was a lot of text. I'll try to pull up a few dashboards for the next blog.
+
+- Worry only about the code, and let Knative handle the scaling.
+- Best of both worlds - containers + serverless, with 0 headache for the developer.
+- Pipeline of invocations with gRPC, REST or Websocket Gateways.
+- Does your indexing workload get triggered by Events? Think serverless.
+
+Go, scale your multimodal application using Jina!
