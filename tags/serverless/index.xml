@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>serverless on Deepankar's Tech Blogs</title><link>http://deepankarm.github.io/tags/serverless/</link><description>Recent content in serverless on Deepankar's Tech Blogs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jun 2022 17:49:55 +0530</lastBuildDate><atom:link href="http://deepankarm.github.io/tags/serverless/index.xml" rel="self" type="application/rss+xml"/><item><title>Jina ❤️ Serverless</title><link>http://deepankarm.github.io/posts/jina-serverless/</link><pubDate>Wed, 15 Jun 2022 17:49:55 +0530</pubDate><guid>http://deepankarm.github.io/posts/jina-serverless/</guid><description>What is Jina? From the Docs
+Jina is a framework that empowers anyone to build cross-modal and multi-modal applications on the cloud.
+What is serverless? From Wikipedia
+Serverless computing is a cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers.
+Also,
+&amp;ldquo;Serverless&amp;rdquo; is a misnomer in the sense that servers are still used by cloud service providers to execute code for developers.</description></item></channel></rss>
