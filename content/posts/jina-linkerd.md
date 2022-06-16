@@ -9,7 +9,7 @@ tags:
   - kubernetes
 ---
 
-Let's discuss today about a way to find bottlenecks in your Executors & Flows using Linkerd service mesh.
+Let's discuss today about a way to debug your Executors & Flows using Linkerd service mesh.
 
 ---
 
@@ -280,7 +280,7 @@ It doesn't get any responses! Looks like, we are a victim of a DDoS attack 🤯
 
 #### How do we solve it?
 
-We have a dedicated argument called `prefetch` which helps limit the number of outstanding requests. Here's an example which limits to a maximum of 5 requests at the Gateway, hence not overloading the "slow-executor`. [Read more about the prefetch arg in Jina docs](https://docs.jina.ai/fundamentals/gateway/#limit-outstanding-requests).
+We have an argument called `prefetch` for exactly the same purpose. Here's an example which limits to a maximum of 5 requests at a time at the Gateway, hence not overloading the "slow-executor`. [Read more about the prefetch arg in Jina docs](https://docs.jina.ai/fundamentals/gateway/#limit-outstanding-requests).
 
 ```yaml
 jtype: Flow
