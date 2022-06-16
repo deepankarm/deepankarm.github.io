@@ -4,7 +4,7 @@
 |
 <a href=/posts/><b>Posts</b></a></nav><hr></header><div id=content><main><article><h1>Jina 🤝 Linkerd</h1><div class=post-meta><strong><span>Posted on</span>
 <time>2022-06-16 12:49:55</time></strong>
-<span>• 1299 words</span>
+<span>• 1307 words</span>
 <span>• 7 minute read</span><div><span>Tags:</span>
 <a href=/tags/jina>jina</a>,
 <a href=/tags/service-mesh>service-mesh</a>,
@@ -128,7 +128,7 @@
 </span></span><span style=display:flex><span><span style=color:#75715e># 2022-06-16 22:50:47.527269, &lt;jina.types.request.data.DataRequest (&#39;header&#39;, &#39;parameters&#39;, &#39;routes&#39;, &#39;data&#39;) at 140093958858512&gt;</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># 2022-06-16 22:50:48.530814, &lt;jina.types.request.data.DataRequest (&#39;header&#39;, &#39;parameters&#39;, &#39;routes&#39;, &#39;data&#39;) at 140093958859744&gt;</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># 2022-06-16 22:50:49.536981, &lt;jina.types.request.data.DataRequest (&#39;header&#39;, &#39;parameters&#39;, &#39;routes&#39;, &#39;data&#39;) at 140093958858512&gt;</span>
-</span></span></code></pre></div><p>Awesome! The Flow is no more a victim of one bad Client.</p><hr><h2 id=gotchas>Gotchas?</h2><ul><li>With 0 code changes in our Executors, Linkerd provided us a pretty nice way to trace requests in Jina. With this, we could debug & fix a DDoS attack by a malicious client.</li><li>All communication between Gateway & Executors happen using gRPC. We didn&rsquo;t have to configure anything, Linkerd takes care of proxying HTTP, HTTP/2, gRPC traffic smoothly.</li><li>Linkerd provided latency-aware load balancing, which is a great feature in case we want to use more replicas with any Executor.</li></ul></div></article></main></div><footer><hr><p id=social>Find me around the web:<br><a href=https://github.com/deepankarm>GitHub</a>
+</span></span></code></pre></div><p>Awesome! The Flow is no more a victim of one bad Client.</p><hr><h2 id=gotchas>Gotchas?</h2><ul><li>With 0 code changes in our Executors, Linkerd provided us a pretty nice way to trace requests in Jina. With this, we could debug & fix a DDoS attack by a malicious client.</li><li>All communication between Gateway & Executors happen using gRPC. We didn&rsquo;t have to configure anything, Linkerd takes care of proxying HTTP, HTTP/2, gRPC traffic smoothly.</li><li>Linkerd provided latency-aware load balancing, which is a great feature in case we want to use more replicas with any Executor.</li><li>Always use the right <code>prefetch</code> with your Flow!</li></ul></div></article></main></div><footer><hr><p id=social>Find me around the web:<br><a href=https://github.com/deepankarm>GitHub</a>
 |
 <a href=https://www.linkedin.com/in/deepankar-mahapatro/>Linkedin</a></p><p class=copyright>Copyright © 2022
 <a href=http://deepankarm.github.io/><strong>Deepankar Mahapatro</strong></a>.
