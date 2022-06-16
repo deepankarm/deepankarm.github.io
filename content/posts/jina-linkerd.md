@@ -326,3 +326,4 @@ Awesome! The Flow is no more a victim of one bad Client.
 - With 0 code changes in our Executors, Linkerd provided us a pretty nice way to trace requests in Jina. With this, we could debug & fix a DDoS attack by a malicious client.
 - All communication between Gateway & Executors happen using gRPC. We didn't have to configure anything, Linkerd takes care of proxying HTTP, HTTP/2, gRPC traffic smoothly.
 - Linkerd provided latency-aware load balancing, which is a great feature in case we want to use more replicas with any Executor.
+- Always use the right `prefetch` with your Flow!
