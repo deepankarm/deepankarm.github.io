@@ -5,6 +5,7 @@ description: Serverless experimentation with Jina
 tags:
   - jina
   - serverless
+  - knative
   - kubernetes
 ---
 
