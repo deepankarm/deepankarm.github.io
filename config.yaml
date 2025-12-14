@@ -19,6 +19,10 @@ menu:
       weight: 3
 
 params:
+  defaultTheme: auto
+  disableThemeToggle: false
+  assets:
+    disableFingerprinting: true
   author: Deepankar Mahapatro
   description: Software Engineer · AI Backends · Python & Go
   ShowReadingTime: true
