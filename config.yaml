@@ -1,6 +1,6 @@
 baseURL: https://deepankarm.github.io/
 languageCode: en-us
-title: Deepankar's Tech Blogs
+title: deepankar.log
 theme: PaperMod
 
 menu:
@@ -20,7 +20,7 @@ menu:
 
 params:
   author: Deepankar Mahapatro
-  description: Engineering Manager - Jina AI
+  description: Software Engineer · AI Backends · Python & Go
   ShowReadingTime: true
   ShowShareButtons: true
   ShareButtons:
