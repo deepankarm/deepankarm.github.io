@@ -23,6 +23,9 @@ params:
   description: Engineering Manager - Jina AI
   ShowReadingTime: true
   ShowShareButtons: true
+  ShareButtons:
+    - x
+    - linkedin
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
