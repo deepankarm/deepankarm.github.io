@@ -17,6 +17,14 @@ menu:
       name: About
       url: /about/
       weight: 3
+    - identifier: github
+      name: GitHub
+      url: https://github.com/deepankarm
+      weight: 4
+    - identifier: linkedin
+      name: LinkedIn
+      url: https://www.linkedin.com/in/deepankar-mahapatro/
+      weight: 5
 
 params:
   defaultTheme: auto
@@ -26,10 +34,7 @@ params:
   author: Deepankar Mahapatro
   description: Software Engineer · AI Backends · Python & Go
   ShowReadingTime: true
-  ShowShareButtons: true
-  ShareButtons:
-    - x
-    - linkedin
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
