@@ -8,6 +8,10 @@ tags:
   - Anthropic
   - Gemini
   - Completions API
+cover:
+  image: /images/openai-compatibility/compatibility.png
+  relative: false
+  hidden: true
 ---
 
 The promise of a standardized interface for LLMs via OpenAI-compatible endpoints is compelling. In theory, it allows for a plug-and-play architecture where switching models is as trivial as changing a `base_url`. In practice, this compatibility is often an illusion.

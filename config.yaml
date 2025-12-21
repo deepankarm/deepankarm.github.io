@@ -27,6 +27,7 @@ menu:
       weight: 5
 
 params:
+  env: production
   defaultTheme: auto
   disableThemeToggle: false
   assets:
