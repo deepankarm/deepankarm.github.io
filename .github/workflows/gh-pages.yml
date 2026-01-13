@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Set a branch to deploy
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
