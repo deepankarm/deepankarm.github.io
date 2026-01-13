@@ -36,7 +36,7 @@ Run it with [uv](https://docs.astral.sh/uv/):
 uv run script.py
 ```
 
-`uv` reads the inline metadata, installs the right Python version if needed, creates an isolated environment, installs dependencies, and runs the script. One file, fully self-contained.
+`uv` reads the inline metadata, installs the right Python version if needed, creates an isolated environment, installs dependencies, and runs the script. One file, fully self-contained!
 
 ---
 
