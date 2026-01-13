@@ -1,6 +1,6 @@
 ---
 title: "TIL: Inline dependencies in Python scripts"
-date: 2026-01-13T14:00:00+05:30
+date: 2026-01-13T10:00:00+05:30
 description: Embed dependencies and Python version requirements directly in your script
 tags:
   - python
