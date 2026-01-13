@@ -2,6 +2,7 @@ baseURL: https://deepankarm.github.io/
 languageCode: en-us
 title: deepankar.log
 theme: PaperMod
+titleCaseStyle: none
 
 menu:
   main:
