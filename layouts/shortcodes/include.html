@@ -1,0 +1,8 @@
+{{- $file := .Get "file" -}}
+{{- $lang := .Get "lang" | default "text" -}}
+{{- $resource := .Page.Resources.GetMatch $file -}}
+{{- if $resource -}}
+{{- highlight ($resource.Content) $lang "" -}}
+{{- else -}}
+{{- errorf "include shortcode: file %q not found in page bundle" $file -}}
+{{- end -}}
